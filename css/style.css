@@ -2,6 +2,7 @@
 
 body {
   font-family: "Century Gothic", 'Lato', sans-serif;
+background-color: rgb(131, 142, 198);
 }
 
 a {
@@ -16,8 +17,7 @@ a {
   align-items: center;
   height: 100vh;
   position: relative;
-  background: url(http://malykh.com/img/2015-05/04-bgqoNxUQeaEx1W2KZjfutg6Q7mA/DJI00016-rt-ep-s.jpg) #eee no-repeat;
-background-attachment: fixed;
+  
 
   text-align: center;
   padding: 0 2em;
@@ -93,6 +93,13 @@ box-shadow: 0 0 1px rgba(0, 0, 0, 41);
   .et-hero-tab {
     font-size: 1rem;
   }
+
+@media (min-width:1281px) { 
+
+/* hi-res laptops and desktops */
+background: url(http://malykh.com/img/2015-05/04-bgqoNxUQeaEx1W2KZjfutg6Q7mA/DJI00016-rt-ep-s.jpg) #eee no-repeat;
+background-attachment: fixed;
+ }
 
 .slides {
     padding: 0;
