@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
+
 body {
   font-family: "Century Gothic", 'Lato', sans-serif;
 background-color: rgb(131, 142, 198);
@@ -42,7 +43,7 @@ color: white;
   display: flex;
   flex-direction: row;
   position: absolute;
-  bottom: 0;
+  bottom: 15%;
   width: 100%;
   height: 70px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 41);
@@ -94,11 +95,18 @@ box-shadow: 0 0 1px rgba(0, 0, 0, 41);
     font-size: 1rem;
   }
 
-@media (min-width:1281px) { 
-
+@media (min-width:1024px) { 
+body {
 /* hi-res laptops and desktops */
 background: url(http://malykh.com/img/2015-05/04-bgqoNxUQeaEx1W2KZjfutg6Q7mA/DJI00016-rt-ep-s.jpg) #eee no-repeat;
 background-attachment: fixed;
+}
+
+.et-hero-tabs-container {
+bottom: 0%;
+
+}
+
  }
 
 .slides {
@@ -214,3 +222,4 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 
 }
+
